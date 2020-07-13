@@ -1,0 +1,151 @@
+svg {
+    touch-action: auto !important;
+}
+
+.app-sidebar .logo-img,
+.app-sidebar .logo-img img {
+    max-width: 155px;
+    height: 30px;
+}
+
+#userDropdown .avatar {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#app .wrapper .header-brand-img {
+    height: 30px;
+    width: 155px;
+    background: url('/images/logo-sidebar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#app .wrapper.menu-collapsed .header-brand-img {
+    height: 30px;
+    width: 30px;
+    background: url('/images/favicon.ico');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-bg {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.authentication-form h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.authentication-form h3 img {
+    max-width: 80%;
+}
+
+.auth-wrapper .authentication-form {
+    padding: 50px 0 !important;
+}
+
+.wm-background {
+    position: fixed;
+    z-index: 0;
+    background: transparent;
+    display: block;
+    min-height: 50%;
+    min-width: 50%;
+    color: yellow;
+    pointer-events: none;
+}
+
+.wm-bg-text {
+    color: red;
+    opacity: 0.09;
+    font-size: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+krwidget svg {
+    z-index: 10;
+}
+
+
+krwidget svg rect {
+    opacity: 0.65;
+}
+
+.card .card-header {
+    z-index: 10;
+}
+
+.widget {
+    z-index: 10;
+    opacity: 0.85;
+}
+
+.table {
+    position: relative;
+    z-index: 10;
+}
+
+@media print {
+    a, p, div, label, th, td, svg, table, tr, g {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.card, .card-header, .card-block, .card-body,
+.wrapper .page-wrap .main-content {
+    background-color: transparent;
+}
+
+a.dropdown-toggle {
+    text-decoration: none;
+    color: #212121;
+}
+
+a.dropdown-toggle:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.top-menu .dropdown-item.active,
+.top-menu .dropdown-item:active {
+    color: black;
+    font-weight: bold;
+}
+
+.datepicker_big,
+.datepicker_big.input-group .input-group-prepend .btn,
+.datepicker_big.input-group .input-group-append .btn,
+.datepicker_big input {
+    height: 2em;
+    font-size: 32px;
+}
+
+.home-widgets .card,
+.card-header.overview_numbers,
+.overview_numbers.widget-body:hover {
+    cursor: pointer;
+}
+
+.DonutChart svg g path {
+    opacity: 0.6;
+}
+
+.cirlce-color {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.countup {
+    font-size: 40px;
+}
